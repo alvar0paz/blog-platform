@@ -1,7 +1,7 @@
 // src/components/Signup.tsx
 import React, { useState } from 'react';
 import { z } from 'zod';
-import { authSchema } from '../../../validation/authSchema';
+import { authSchema } from '../validation/authSchema';
 import { useAuthContext } from '../context/AuthContext';
 import { AuthForm, AuthInput, AuthText, Header, MainButton, MainWrapper } from '.';
 import { useNavigate } from 'react-router-dom';
